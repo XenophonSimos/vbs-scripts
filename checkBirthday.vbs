@@ -14,7 +14,7 @@ Sub ReadBirthday()
     For i = 1 To ActiveExplorer.selection.Count
         
         Set currItem = ActiveExplorer.selection(i)
-        
+         
         If InStr(currItem.Body, "Mouzenidis Travel: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ") > 0 Then
             sItemBody = currItem.HTMLBody
             
